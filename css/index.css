@@ -9,8 +9,9 @@ header{
 }
 header div{
 	display: inline-block;
-	margin-left: 5%;
+	margin-right: 5%;
 	margin-top: 130px;
+	float:right;
 
 }
 header div h1{
