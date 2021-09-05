@@ -1,19 +1,44 @@
 header{
-	height:450px;
-	background-image: url('../img/headerImage.jpg');
+	height:600px;
+	/*background-image: url('../img/headerImage2.jpg');*/
+	background-color: #37393D;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	
 
 }
-nav{
+header div{
+	display: inline-block;
+	margin-left: 5%;
+	margin-top: 130px;
+
+}
+header div h1{
+	text-align: right;
+	color: #E9A685;
+	font-size: 400%;
 	
-	height: 6%;
+}
+header div h2{
+	text-align: right;
+	font-size: 120%;
+	color: #FFFFFF;
+	
+}
+header img{
+	height: 450px;
+	margin-top: 75px;
+	margin-left: 5%;
+	display: inline-block;
+	float: left;
+}
+header nav{
+
+	height: 25px;
 	width: 100%;
 	background-color: #DEDEDE;
-	display: inline-block;
-	margin-top: 423px;
+
+
 	text-align: center;
 	/*position: absolute;*/
 }
@@ -22,12 +47,76 @@ nav a{
 	margin-left: 5%;
 	text-transform: uppercase;
 	font-size: 130%;
-
-
-
+}
+#aboutMe{
+	height: 600px;
+	background-color: #DFA88A;
+}
+#aboutMe img{
+	height:400px;
+	float:right;
+	display: inline-block;
+	margin-top: 75px;
+	margin-right: 5%
+}
+#aboutMe div{
+	display: inline-block;
+	margin-top: 150px;
+	margin-right: 10%;
+	width: 40%;
+	float: right;
+	font-size: 150%
+	
+}
+#aboutMe div h1{
+	color: #37393D;
+	
+}
+#aboutMe div p{
+	color: #FDFCFA;
+}
+#myProject{
+	height: 600px;
+	background-color: #FFFFFF;
+}
+#myProject h1{
+	color: #DFA88A;
+	text-align: center;
+	font-size: 200%
 }
 
-section{
+#myProject div{
+	height:284px;
+	display: inline-block;
+	float:left;
+	margin-left: 4.4%;
+}
+#myProject div p{
+	font-size:120%;
+}
+#gesture{
+	height: 90%;
+	
+}
+#car{
+	height:85%;
+	
+}
+#signal{
+	height: 90%;
+	
+}
+#myProject img, video{
+
+	display: inline-block;
+	border:10px  #37393D  double;
+	border-radius: 3px;
+	/*margin-left: 60px;*/
+	/*margin-left: 3.5%;*/
+}
+
+
+/*section{
 	background-image: url('../img/profileBackground.jpg');
 	background-repeat: no-repeat;
 	background-color: #D6D6FF;
@@ -57,7 +146,7 @@ main{
 	font-size: 130%;
 	font-family: Comic Sans MS;
 
-}
+}*/
 footer{
 	background-color: #E0E0E0;
 	text-align: center;
