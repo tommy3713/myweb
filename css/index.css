@@ -89,29 +89,29 @@ nav a{
 }
 
 #myProject div{
-	width:25%;
+	width:40%;
 	display: inline-block;
 	float:left;
 	margin-left: 6%;
 	margin-top:5%;
 }
-#myProject div:last-child{
+/* #myProject div:last-child{
 	margin-left:10%;
-}
+} */
 
 #myProject div p{
 	font-size:120%;
 }
 #gesture{
-	width: 90%;
+	width: 100%;
 	
 }
 #car{
-	width:110%;
+	width:100%;
 	
 }
 #signal{
-	width: 90%;
+	width: 80%;
 
 	
 	
